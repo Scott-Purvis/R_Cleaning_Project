@@ -3,7 +3,7 @@
 
 <h2> Analysis of Human Activity Recognition Using Smartphones Data Set </h2>
 
-<p>Files in this repo:</p>
+*<p>**Files in this repo:*</p>**
 <ul>
 <li>README.md - this file</li>
 <li>run_analysis.R</li>
