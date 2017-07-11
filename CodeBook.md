@@ -25,12 +25,12 @@ ___
 the script run_analysis.R performs the following transformations to the inmported data
 
 1. To both the test and train data tables, completed the following;
-    a. Joined the observation associated activities (from y_train/test) with the human readable Activity names
-    b. To the observed data (X_train/test), used the features data as column names (see below) 
-    c. Selected columns with the strings “mean” OR “std
-    d. Added subjectID and Activities to data tables
-2. Using rbind, merge train and test data tables
-3. Summarized the mean of each column using summarise_by(funs(mean))
+    1. Joined the observation associated activities (from y_train/test) with the human readable Activity names
+    1. To the observed data (X_train/test), used the features data as column names (see below) 
+    1. Selected columns with the strings “mean” OR “std
+    1. Added subjectID and Activities to data tables
+1. Using rbind, merge train and test data tables
+1. Summarized the mean of each column using summarise_by(funs(mean))
 
 ASSUMPTION: the features data table contained 561 observations and the observed data tables (X_train/test) contained 561 columns.  It was assumed that each row in the features data table corresponds to each column in the observed data tables, thus making it possible to use the features data table as column names for the observed data tables.
 
