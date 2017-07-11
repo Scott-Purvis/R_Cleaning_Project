@@ -1,4 +1,4 @@
-#Cleaning and Getting Data Code Book
+# Cleaning and Getting Data Code Book
 
 With their embedded accelerometer and gyriscopes,modern smartphones make an excellent tool for studying human movements. The authors of numerous publications studying Human Activity using Smartphones have made their data tables available for analysis.  
 
@@ -10,7 +10,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ___
 
-##Description of downloaded data tables and files
+## Description of downloaded data tables and files
 <li>Activity_labels - contains list of 6 measured activity labels</li>
 <li>features - list of 561 measured features</li>
 <li>features_info - describes the measured features, variables, and calculated variables</li>
@@ -21,7 +21,7 @@ ___
 
 ___
 
-##Data Handling and Cleaning Methods##
+## Data Handling and Cleaning Methods##
 the script run_analysis.R performs the following transformations to the inmported data
 
 1. To both the test and train data tables, completed the following;
@@ -42,10 +42,10 @@ One problem with the features data table is that it contained duplicate names th
 
 ___
 
-##Data variables
+## Data variables
 A description of the features can be found at UCI data website (see above)
 
-###List of variables:
+### List of variables:
 <li>tBodyAcc-mean()-X</li>
 <li>tBodyAcc-mean()-Y</li>
 <li>tBodyAcc-mean()-Z</li>
@@ -134,7 +134,7 @@ A description of the features can be found at UCI data website (see above)
 <li>angle(Z,gravityMean)</li>
 </ul>
 
-###Activity Labels
+### Activity Labels
 <li>WALKING: subject was walking during the test</li>
 <li>WALKING_UPSTAIRS: subject was walking up a staircase during the test</li>
 <li>WALKING_DOWNSTAIRS: subject was walking down a staircase during the test</li>

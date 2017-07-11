@@ -1,9 +1,9 @@
 
-###Cleaning and Getting Data Course Project
+### Cleaning and Getting Data Course Project
 
-##Analysis of Human Activity Recognition Using Smartphones Data Set
+## Analysis of Human Activity Recognition Using Smartphones Data Set
 
-###Files in this repo:
+## Files in this repo:
   *README.md - this file
   *CodeBook.md - describes the data cleaning process and variables
   *run_analysis.R - contains all the code needed to complete the asssignment
