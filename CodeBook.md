@@ -21,7 +21,7 @@ ___
 
 ___
 
-## Data Handling and Cleaning Methods##
+## Data Handling and Cleaning Methods
 the script run_analysis.R performs the following transformations to the inmported data
 
 1. To both the test and train data tables, completed the following;
