@@ -1,12 +1,11 @@
 
-<h1> Cleaning and Getting Data course project</h1>
+###Cleaning and Getting Data Course Project
 
-<h2> Analysis of Human Activity Recognition Using Smartphones Data Set </h2>
+##Analysis of Human Activity Recognition Using Smartphones Data Set
 
-<h3>Files in this repo:</h3>
-<li>README.md - this file</li>
-<li>run_analysis.R</li>
-<li>CodeBook.md</li>
-<li>mergesummary.txt</li>
+###Files in this repo:
+  *README.md - this file
+  *CodeBook.md - describes the data cleaning process and variables
+  *run_analysis.R - contains all the code needed to complete the asssignment
+  *mergesummary.txt - output for for the assignement
 
-<h3>Getting Started </h3>
